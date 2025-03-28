@@ -8,6 +8,7 @@ cat > /web/dist/custom.css <<EOF
   /* Set primary colors to match bootstrap */
   --ak-accent: ${PRIMARY_COLOR};
   --ak-dark-foreground-link: ${SECONDARY_COLOR};
+  --ak-dark-foreground: #000000;
   --pf-global--primary-color--100: ${PRIMARY_COLOR};
   --pf-global--primary-color--200: ${SECONDARY_COLOR};
   --pf-global--primary-color--400: ${PRIMARY_COLOR};
@@ -139,11 +140,11 @@ body, ak-flow-executor, ak-loading, ak-message-container {
 
 .pf-c-background-image {
     --pf-c-background-image--BackgroundColor: var(--pf-global--BackgroundColor--dark-100);
-    --pf-c-background-image--BackgroundImage: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292);
-    --pf-c-background-image--BackgroundImage-2x: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292);
-    --pf-c-background-image--BackgroundImage--sm: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292);
-    --pf-c-background-image--BackgroundImage--sm-2x: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292);
-    --pf-c-background-image--BackgroundImage--lg: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292);
+    --pf-c-background-image--BackgroundImage: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292) !important;
+    --pf-c-background-image--BackgroundImage-2x: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292) !important;
+    --pf-c-background-image--BackgroundImage--sm: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292) !important;
+    --pf-c-background-image--BackgroundImage--sm-2x: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292) !important;
+    --pf-c-background-image--BackgroundImage--lg: url(https://cdn.shopify.com/s/files/1/0795/1653/3018/files/Your_B-Bot_Me_2_9b15acd6-1ffd-42de-9dc9-95ef3a50c262.png?v=1705335292) !important;
     --pf-c-background-image--Filter: url(#image_overlay);
 }
 
