@@ -19,7 +19,7 @@ cat > /web/dist/custom.css <<EOF
 }
 
 .pf-c-login__main{
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 EOF
 
