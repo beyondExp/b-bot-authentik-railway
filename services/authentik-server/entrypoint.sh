@@ -17,6 +17,10 @@ cat > /web/dist/custom.css <<EOF
 .ak-login-container .ak-brand img {
     max-width: 100%;
 }
+
+.pf-c-login__main{
+    border-radius: 1rem;
+}
 EOF
 
 
